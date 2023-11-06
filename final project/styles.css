@@ -103,7 +103,7 @@ img {
     width: 0;
     bottom: -3px;
     right: 0;
-    transition: all 300ms ease;
+    transition: 300ms;
     
     
 }
@@ -176,6 +176,10 @@ nav {
     padding: 0 0 4px;
 }
 
+.nav__link--text:hover {
+    color: #6415FF;
+    transition: 300ms;
+}
 
 .nav__link--list {
     display: flex;
@@ -218,6 +222,7 @@ nav {
     letter-spacing: 0.025em;
     transition-duration: 300ms;
     
+    
 }
 
 
@@ -234,19 +239,20 @@ nav {
 
 .nav__link--primary:hover {
     text-decoration: none;
+    
 }
 
 
 .nav__link--anchor-primary {
-    background-color: #6030b1;
-    padding: 8px 20px;
-    border-radius: 50px;
+    background-color: #5d3eff;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
     color: white;
     transition: all 300ms ease;
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #5d3eff;
+    background-color: #6030b1;
 }
 
 
