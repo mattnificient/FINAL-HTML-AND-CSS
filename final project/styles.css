@@ -303,27 +303,18 @@ HEADER
     margin-right: auto;
     max-width: 28rem;
     text-align: center;
-   
+    --tw-text-opacity: 1;
+    color: rgb(36 62 99 / var(--tw-text-opacity));
 }
 
 .email__input{
     width: 100%;
     border-radius: 9999px;
     border-width: 2px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
     font-weight: 500;
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
-    font-family: inherit;
-    font-size: 100%;
-    font-weight: inherit;
-    line-height: inherit;
-    color: inherit;
-    margin: 0px;
-    padding: 0px;
 }
+
 .email__btn {
    position: absolute;
     margin-top: 0.5rem;
@@ -349,7 +340,7 @@ HEADER
     padding-bottom: 1rem;
     font-weight: 700;
     --tw-text-opacity: 1;
-    color: rgb(247 250 252 / var(--tw-text-opacity));
+    color: #F7FAFC;
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
 }
@@ -577,7 +568,9 @@ QUALITY WORK
     border: 1px solid rgb(226, 232, 240);
     border-radius: 3px;
 }
-
+.learn__btn{
+position: relative;top: 60px;
+}
 
 /*
 
@@ -1030,8 +1023,9 @@ TESTIMONIALS
     text-align: center;
 }
 .rating__wrapper {
-    color: rgb(246 173 85);
+    color: orange;
 }
+
 .testimonial__title {
     font-size: 20px;
     font-weight: 700;
@@ -1094,29 +1088,28 @@ TESTIMONIALS
   
 .testimonial__controls--wrapper {
     display: flex;
+    background-color: rgb(237 242 247 / var(--tw-bg-opacity));
+    color: rgb(100 21 255 / var(--tw-text-opacity));
+    transition-duration: all 300ms ease;
+}
+.testimonial__controls--wrapper:hover{
+    color: #665a79;
 }
   
-.fas-arrow-left {
-    height: 16px;
-    width: 16px;
-}
-  
-.fas-arrow-right {
-    height: 16px;
-    width: 16px;
-}
   
 .control__left,
 .control__right {
+    font-size: 36px;
+    cursor: pointer;
     padding: 0px;
     margin: 0 12px;
     background-color: rgb(237 242 247);
     border: none;
     color: rgb(100 21 255);
-    cursor: not-allowed;
     border-radius: 9999px;
     width: 50px;
     height: 50px;
+    
 }
   
 .divider {

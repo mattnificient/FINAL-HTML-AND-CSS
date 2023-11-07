@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free Modern React Templates &amp; Components for building landing pages and UIs - Treact</title>
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <section id="nav">
@@ -249,9 +250,10 @@
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
-                        <a href="#" class="btn quality__button">
-                            Learn More
-                        </a>
+                        <button class="nav__link--btn
+                        link__hover-effect--purple 
+                        nav__link--anchor-primary 
+                        learn__btn" href="#">Learn More</button>
                     </div>
                 </div>
                 <figure class="quality__img--wrapper">
@@ -354,11 +356,12 @@
                                 </p>
                             </div>
                         </div>
-                        <a href="https://week2-final-project.netlify.app/#">
-                            <button class="values__btn">
-                                Learn More
-                            </button>
-                        </a>
+                      <div style="position: relative; right: 200px;">  <button class="nav__link--btn
+                            link__hover-effect--purple 
+                            nav__link--anchor-primary 
+                            learn__btn">Learn More
+                        </button>
+                    </div>
                     </div>
                 </div>
                 <div class="values__img--wrapper">
@@ -517,11 +520,11 @@
                     <div class="testi__testimonial">
                         <div class="testimonial">
                             <div class="rating__wrapper">
-                                <i class="fas fa-star" aria-hidden="true"></i>
-                                <i class="fas fa-star" aria-hidden="true"></i>
-                                <i class="fas fa-star" aria-hidden="true"></i>
-                                <i class="fas fa-star" aria-hidden="true"></i>
-                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
                             </div>
                             <div class="testimonial__title">
                                 Amazing User Experience
@@ -552,15 +555,11 @@
                                 </div>
                                 <div class="testimonial__controls--wrapper">
                                     <button class="control__left">
-                                        <i class="fas fa-arrow-left" aria-hidden="true">
-                                            <a href="https://week2-final-project.netlify.app/#slide1"></a>
-                                        </i>
+                                        &#8592
                                     </button>
                                     <div class="divider"></div>
                                     <button class="control__right">
-                                        <i class="fas fa-arrow-right" aria-hidden="true">
-                                            <a href="https://week2-final-project.netlify.app/#slide2"></a>
-                                        </i>
+                                        &#8594
                                     </button>
                                 </div>
                             </div>
