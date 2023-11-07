@@ -838,7 +838,7 @@ PRICING
 .pricing__price {
     display: flex;
     flex-direction: column;
-    max-width: 320px;
+    max-width: 620px;
     margin: 64px 32px 0 0 ;
     padding: 8px 32px 0 32px;
     position: relative;
