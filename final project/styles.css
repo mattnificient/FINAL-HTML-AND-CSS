@@ -1321,33 +1321,32 @@ FOOTER
   
 .footer__social--wrapper {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 0px;
     height: 32px;
     width: 128px;
 }
   
 .footer__social {
-    margin-right: 1rem;
-    cursor: not-allowed;
-    align-items: center;
+    cursor: pointer;
     border-radius: 9999px;
     --tw-bg-opacity: 1;
     background-color: rgb(247 250 252 / var(--tw-bg-opacity));
-    padding: 0.5rem;
+    padding: 1rem;
     --tw-text-opacity: 1;
     color: rgb(26 32 44 / var(--tw-text-opacity));
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
-    display: block;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
 }
 
-.fab {
-    display: block;
+.footer__social:hover{
+    background-color: #969696;
 }
-  
-.footer__social:last-child {
-    margin-right: 0;
+.fa {
+    right: 23px;
+    top: 8px;
+ 
 }
+
 
 
 
