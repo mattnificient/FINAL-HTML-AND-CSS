@@ -1118,6 +1118,46 @@ TESTIMONIALS
     border-left: 1px solid rgb(226, 232, 240);
 }
 
+
+/*
+
+FAQS
+
+*/
+.single__column--group{
+    padding: 1rem 2.5rem;
+    margin-top: 1.25rem;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(237 242 247 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(45 55 72 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+.single__column--dt{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.single__column--question{
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.single__column--icon{
+    transform: rotate(-180deg) translateZ(0px);
+    margin-left: 0.5rem;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+
+
 /*
 
 GET STARTED
