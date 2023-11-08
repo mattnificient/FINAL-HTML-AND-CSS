@@ -1150,7 +1150,6 @@ FAQS
     font-weight: 600;
 }
 .single__column--icon{
-    transform: rotate(-180deg) translateZ(0px);
     margin-left: 0.5rem;
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
